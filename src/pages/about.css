@@ -1,0 +1,43 @@
+.about {
+    padding: 1.5rem 4%;
+    padding-bottom: 4rem;
+}
+
+.heading1 {
+    text-align: center;
+    padding: 2.5rem 0;
+}
+
+.heading1 span {
+    font-size: 2.5rem;
+    margin-right: .5rem;
+    background: #1b4d89;
+    color: #fff;
+    border-radius: .5rem;
+    padding: .2rem 1rem;
+}
+
+.heading1 span.space {
+    background: none;
+}
+
+.about .grid {
+    padding-top: 2rem;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    gap: 2rem;
+}
+
+.content h1{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.content p{
+    line-height: 1.7;
+    font-size: 1.1rem;
+    color: gray;
+    margin-bottom: 1rem;
+}

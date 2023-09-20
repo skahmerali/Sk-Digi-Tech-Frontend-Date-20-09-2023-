@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Babylonica&family=Dancing+Script:wght@400;500;600;700&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@1,100&display=swap');
+
+.header{
+    padding: 1.5rem 4%;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0; left: 0; right: 0;
+    z-index: 10000;
+    /* color: #fff; */
+    justify-content: space-between;
+    background-color:#fff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+
+.navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar ul li{
+    margin-right: .5rem;
+    padding: .7rem 1.2rem;
+    transition: .5s;
+    border-radius: .5rem;
+}
+
+.logo{
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+.navbar ul li:hover,.active{
+    background-color: #1b4d89;
+    color: #fff;
+}
+
+.highlight{
+    color: #6bd784;
+    font-family: 'Dancing Script', cursive;
+}
+
+.btn{
+    padding: .7rem 1.5rem;
+    background: #1b4d89;
+    color: #fff;
+    transition: .5s;
+    border: 1px solid #1b4d89;
+    border-radius: .5rem;
+    font-size: 1.1rem;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: #1b4d89;
+}
+
+.btn-outline{
+    padding: .7rem 1.5rem;
+    background: #fff;
+    color: #1b4d89;
+    transition: .5s;
+    border: 1px solid #1b4d89;
+    border-radius: .5rem;
+    font-size: 1.1rem;
+}
+
+.btn-outline:hover{
+    cursor: pointer;
+    background-color: #1b4d89;
+    color: #fff;
+}

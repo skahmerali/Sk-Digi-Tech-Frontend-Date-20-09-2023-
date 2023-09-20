@@ -1,0 +1,33 @@
+.container {
+    margin: 4rem;
+    padding: 4rem 27%;
+    border-radius: 1rem;
+    background-color: #fff;
+    /* box-shadow: rgba(142, 142, 147, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; */
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+}
+
+.container .text h1 {
+    display: inline-block;
+    font-weight: 400;
+    margin-right: .7rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+    background-color: #fff;
+    color: #555;
+    padding: .5rem 1.5rem;
+    border-radius: 4% 1rem;
+}
+
+.container .text span {
+    background-color: #fff;
+    padding: .5rem 1.5rem;
+}
+
+.heading{
+    text-align: center;
+    padding: 1rem 1.7rem;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    box-shadow: rgba(142, 142, 147, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
